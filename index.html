@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Travel</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div id ="menu-bar" class="fas fa-bars"></div>  
+        <a href="#" class="logo"><span> <img class="image" src="1235.jpg" alt=""> Quick Travel</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search"  id="search-btn"></i>
+            <i class="fas fa-user"  id="login-btn"></i>
+
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+
+
+    </header>
+    <div class="login-form-container"> 
+        <i class="fas fa-times" id= "form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot password? <a href="#">Click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+
+
+    </div>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>You must go on adventures to find out where you truly belong </h3>
+            <p>discover new places with us,adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="Pexels Videos 1580455.mp4"></span>
+            <span class="vid-btn" data-src="vid 01.mp4"></span> 
+            <span class="vid-btn" data-src="1.mp4"></span>
+            <span class="vid-btn" data-src="video.mp4"></span>
+            <span class="vid-btn" data-src="Taj Mahal - 23592.mp4"></span>
+
+
+
+        </div>
+        <div class="video-container">
+            <video src="Pexels Videos 1580455.mp4" id="video-slider" loop autoplay muted ></video>
+        </div>   
+    </section>
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+         </h1>
+         <div class="row">
+         <div class="image">
+             <img src="trav.jpg" alt="">
+         </div>
+         <form action="">
+             <div class="inputBox">
+                 <h3>From</h3>
+                 <input type="text" placeholder="place name">
+
+             </div>
+             <div class="inputBox">
+                 <h3>Persons</h3>
+                 <input type="number" placeholder="number of guests">
+
+
+             </div>
+             <div class="inputBox">
+                 <h3>Depature</h3>
+                 <input type="date">
+             </div>
+             <input type="submit" class="btn" value="book now">
+         </form>
+         </div>
+
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://wallpaperaccess.com/full/4495586.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hyderabad</h3>
+                    <p>The Charminar constructed in 1591, is a monument located in Hyderabad, Telangana, India. The landmark has become known globally as a symbol of Hyderabad and is listed among the most recognised structures in India. It has also been officially incorporated as the Emblem of Telangana name=Symbol"Kakatiya arch, Charminar in Telangana state logo"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$200.00 <span>$300.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+        
+        <div class="box">
+            <img src="http://wallpapersmug.com/download/1920x1080/ba4a37/maldives-resort-aerial-view-island-sea.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Maldives</h3>
+                <p>The Maldives has a tropical monsoon climate  under the Koppen climate classification, which is affected by the large landmass of South Asia to the north. Because the Maldives has the lowest elevation of any country in the world, the temperature is constantly hot and often humid. The presence of this landmass causes differential heating of land and water.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$250.00 <span>$350.00</span></div>
+                <a href="#" class="btn">book now</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFkcmlkfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Madrid</h3>
+                <p>Madrid is the seat of the World Tourism Organization (UNWTO) and the International Tourism Fair The most visited museum was the Museo Nacional Centro de Arte Reina Sofía, with 3.8 million visitors in the sum of its three seats in 2018. Conversely, the Prado Museum had 2.8 million visitors and the Thyssen-Bornemisza Museum 906,815 visitors.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$350.00 <span>$400.00</span></div>
+                <a href="#" class="btn">book now</a>
+
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="p-4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>paris</h3>
+                <p>The centre of Paris contains the most visited monuments in the city, including the Notre Dame Cathedral (now closed for restoration) and the Louvre as well as the Sainte-Chapelle; Les Invalides, where the tomb of Napoleon is located, and the Eiffel Tower are located on the Left Bank south-west of the centre. The Panthéon and the Catacombs of Paris are also located on the Left Bank of the Seine. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="london.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>london</h3>
+                <p>The city accounts for 54% of all inbound visitor spending in the UK.[298] As of 2016 London was the world top city destination as ranked by TripAdvisor users</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="dubai.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Dubai</h3>
+                <p>Dubai is one of the world's leading tourism destinations and tourism in Dubai is a major source of revenue. The city hosted 14.9 million overnight visitors in 2016. In 2018, Dubai was the fourth most-visited city in the world based on the number of international visitors</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$500.00 <span>$700.00</span></div>
+                <a href="#" class="btn">book now</a>
+
+            </div>
+        </div>
+    </div>
+        
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+    <div class=" box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Want to book a gorgeous hotel for your next vacation? You don't have to skimp on style if you want to ring in under budget—the beauties ahead only look like a million bucks</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>The combo packs with in less price serving Italian and Indian varities </p>
+
+        </div>
+        <div class="box">
+            <i class="fas  fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Safety is our first priority</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>our services are present  around the world</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest tarvel</h3>
+            <p>Less tarvel time with good comfort</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Explore with us and have fun</p>
+
+        </div>
+    
+     </div>
+
+
+    </section>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="my1.jpg" alt="">
+            <div class="content">
+                <h3>unbelievable scenaries</h3>
+                <p>Have a fantastic journey with unbelievable scenaries</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="my2.jpg" alt="">
+            <div class="content">
+                <h3> Go on</h3>
+                <p>must visit palces</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="my3.jpg" alt="">
+            <div class="content">
+                <h3> adventures</h3>
+                <p>The adventures are very attractive and unimaginable </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="my4.jpg" alt="">
+            <div class="content">
+                <h3> Something different</h3>
+                <p>Awesome place to see</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="las.jpg" alt="">
+            <div class="content">
+                <h3> Historical places</h3>
+                <p>Explore and know culture of different people</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="my11.jpg" alt="">
+            <div class="content">
+                <h3> Ride with us</h3>
+                <p>Create unforgettable memories/p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-7.jpg" alt="">
+            <div class="content">
+                <h3> Various Things</h3>
+                <p>Fly in the sky without wings</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-8.jpg" alt="">
+            <div class="content">
+                <h3> Explore different camps</h3>
+                <p>Create a good experience of spending time in camps</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-9.jpg" alt="">
+            <div class="content">
+                <h3> Pyramids</h3>
+                <p>visit various old pyramids</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">
+            <s>r</s>
+            <s>e</s>
+            <s>v</s>
+            <s>i</s>
+            <s>e</s>
+            <s>w</s>
+        </h1>
+        <div class="swiper-container review-slider">
+        <div  class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic1.png" alt="">
+                    <h3>Morris</h3>
+                    <p>unbelievable journey with Quick Travel 😇😇</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic2.png" alt="">
+                    <h3>Sam</h3>
+                    <p>Ensured safety guidelines while travelling 👍👍</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic3.png" alt="">
+                    <h3>Jenny</h3>
+                    <p>Affordable prices 😍😍 </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic4.png" alt="">
+                    <h3>Chris</h3>
+                    <p>Good services at lowest price 👌👍👌</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="need2.jpg" alt="">
+
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text " placeholder="name">
+                    <input type="email"  placeholder="email">
+
+                </div>
+                <div class="inputBox">
+                    <input type="number " placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="1.jpg" alt=""></div>
+            <div class="swiper-slide"> <img src="2.jpg" alt=""></div>
+            <div class="swiper-slide"> <img src="3.jpg" alt=""></div>
+            <div class="swiper-slide"> <img src="4.jpg" alt=""></div>
+            <div class="swiper-slide"> <img src="5.jpg" alt=""></div>
+            <div class="swiper-slide"> <img src="6.jpg" alt=""></div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About us</h3>
+                <p>We specialize in tours to Maldives but are always expanding and enhancing our wide range of offers, as well as adding new and exciting tours of Asia, America, Eastern Europe, Russia and the Japan.</p>
+
+            </div>
+            <div class="box">
+                <h3>branch loactions</h3>
+                <a href="#">India</a>
+                <a href="#">China</a>
+                <a href="#">japan</a>
+                <a href="#">Maldives</a>
+            </div>
+                    <div class="box">
+                        <h3>quick links</h3>
+                        <a href="#">home</a>
+                        <a href="#">book</a>
+                        <a href="#">packages</a>
+                        <a href="#">services</a>
+                        <a href="#">gallery</a>
+                        <a href="#">review</a>
+                        <a href="#">contact</a>
+                    </div>
+                    <div class="box">
+                        <h3>follow us</h3>
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Whatsapp</a>
+                    </div>
+                
+            </div>
+        
+        <h1 class="credit"> created by <s>Web designer</s> | All Rights Reserverd!</h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    
+    
+</body>
+</html>
